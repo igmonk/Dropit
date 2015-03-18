@@ -1,0 +1,8 @@
+# Mac files #
+.DS_store
+
+# Xcode build files #
+Dropit/build/**
+Dropit.xcodeproj/xcuserdata/**
+Dropit.xcodeproj/project.xcworkspace/xcuserdata/**
+Dropit/Dropit.xcodeproj/xcuserdata/**

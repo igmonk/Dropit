@@ -81,8 +81,6 @@
 		78BB24F11AB9890100631CF9 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				78BB24F61AB9890100631CF9 /* AppDelegate.h */,
-				78BB24F71AB9890100631CF9 /* AppDelegate.m */,
 				78BB24F91AB9890100631CF9 /* ViewController.h */,
 				78BB24FA1AB9890100631CF9 /* ViewController.m */,
 				78BB24FC1AB9890100631CF9 /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		78BB24F21AB9890100631CF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78BB24F61AB9890100631CF9 /* AppDelegate.h */,
+				78BB24F71AB9890100631CF9 /* AppDelegate.m */,
 				78BB24F31AB9890100631CF9 /* Info.plist */,
 				78BB24F41AB9890100631CF9 /* main.m */,
 			);
