@@ -15,6 +15,7 @@
 		78BB25031AB9890100631CF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB25011AB9890100631CF9 /* LaunchScreen.xib */; };
 		78BB250F1AB9890100631CF9 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB250E1AB9890100631CF9 /* DropitTests.m */; };
 		78BB251A1AB999E800631CF9 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB25191AB999E800631CF9 /* DropitBehavior.m */; };
+		78BB251D1AB9BE8F00631CF9 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB251C1AB9BE8F00631CF9 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		78BB250E1AB9890100631CF9 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
 		78BB25181AB999E800631CF9 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		78BB25191AB999E800631CF9 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		78BB251B1AB9BE8F00631CF9 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		78BB251C1AB9BE8F00631CF9 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				78BB24F91AB9890100631CF9 /* ViewController.h */,
 				78BB24FA1AB9890100631CF9 /* ViewController.m */,
 				78BB24FC1AB9890100631CF9 /* Main.storyboard */,
+				78BB251B1AB9BE8F00631CF9 /* BezierPathView.h */,
+				78BB251C1AB9BE8F00631CF9 /* BezierPathView.m */,
 				78BB25181AB999E800631CF9 /* DropitBehavior.h */,
 				78BB25191AB999E800631CF9 /* DropitBehavior.m */,
 				78BB24FF1AB9890100631CF9 /* Images.xcassets */,
@@ -226,6 +231,7 @@
 			files = (
 				78BB24FB1AB9890100631CF9 /* ViewController.m in Sources */,
 				78BB251A1AB999E800631CF9 /* DropitBehavior.m in Sources */,
+				78BB251D1AB9BE8F00631CF9 /* BezierPathView.m in Sources */,
 				78BB24F81AB9890100631CF9 /* AppDelegate.m in Sources */,
 				78BB24F51AB9890100631CF9 /* main.m in Sources */,
 			);
