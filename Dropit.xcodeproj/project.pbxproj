@@ -14,6 +14,7 @@
 		78BB25001AB9890100631CF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BB24FF1AB9890100631CF9 /* Images.xcassets */; };
 		78BB25031AB9890100631CF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB25011AB9890100631CF9 /* LaunchScreen.xib */; };
 		78BB250F1AB9890100631CF9 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB250E1AB9890100631CF9 /* DropitTests.m */; };
+		78BB251A1AB999E800631CF9 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB25191AB999E800631CF9 /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		78BB25081AB9890100631CF9 /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BB250D1AB9890100631CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BB250E1AB9890100631CF9 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
+		78BB25181AB999E800631CF9 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		78BB25191AB999E800631CF9 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				78BB24F91AB9890100631CF9 /* ViewController.h */,
 				78BB24FA1AB9890100631CF9 /* ViewController.m */,
 				78BB24FC1AB9890100631CF9 /* Main.storyboard */,
+				78BB25181AB999E800631CF9 /* DropitBehavior.h */,
+				78BB25191AB999E800631CF9 /* DropitBehavior.m */,
 				78BB24FF1AB9890100631CF9 /* Images.xcassets */,
 				78BB25011AB9890100631CF9 /* LaunchScreen.xib */,
 				78BB24F21AB9890100631CF9 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BB24FB1AB9890100631CF9 /* ViewController.m in Sources */,
+				78BB251A1AB999E800631CF9 /* DropitBehavior.m in Sources */,
 				78BB24F81AB9890100631CF9 /* AppDelegate.m in Sources */,
 				78BB24F51AB9890100631CF9 /* main.m in Sources */,
 			);
